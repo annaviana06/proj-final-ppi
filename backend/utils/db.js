@@ -5,7 +5,7 @@ const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '', // Adicione sua senha do MySQL aqui
-  database: 'eventos'
+  database: 'eventos(1)'
 });
 
 // Conectando ao banco de dados
